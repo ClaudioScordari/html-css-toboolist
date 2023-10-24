@@ -81,16 +81,25 @@ ul {
     list-style: none;
 }
 
-.check {
+.check,
+.cross {
     display: inline-block;
     height: 25px;
     width: 25px;
-    border: 1px solid green;
-    color: green;
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
     margin-right: 10px;
+}
+
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
+.cross {
+    border: 1px solid red;
+    color: red;
 }
 
 .text-li {
@@ -105,11 +114,39 @@ ul {
     padding-left: 5px;
 }
 
-.special-bottoms {
+.special-bottoms-uno,
+.special-bottoms-due,
+.special-bottoms-tre,
+.special-bottoms-quattro,
+.special-bottoms-cinque,
+.special-bottoms-sei {
     display: inline-block;
     color: white;
     padding: 10px;
     font-size: 15px;
     border-radius: 20px;
+}
+
+.special-bottoms-uno {
     background-color: #47ADF1;
+}
+
+.special-bottoms-due {
+    background-color: #9C72E4;
+}
+
+.special-bottoms-tre {
+    background-color: #64C0A9;
+}
+
+.special-bottoms-quattro {
+    background-color: #F29E33;
+}
+
+.special-bottoms-cinque {
+    background-color: #D863A1;
+}
+
+.special-bottoms-sei {
+    background-color: #B0C926;
 }
